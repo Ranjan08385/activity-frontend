@@ -48,7 +48,7 @@ function Form({ currentId, setCurrentId }) {
 
   if (!user?.result?.name) {
     return (
-      <Paper clasName={classes.paper}>
+      <Paper className={classes.paper}>
         <Typography variant="h6" align="center">
           Please Sign In to create your own activity and like others activity.
         </Typography>
