@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://project-tracker-activity.herokuapp.com/",
+  baseURL: "https://activity-backend.herokuapp.com/",
 });
 
 // const url = "http://localhost:5000/posts";
